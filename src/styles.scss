@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+$mainColor:#F27655;
+$scondColor:#594c42;
+$thirdColor:#060054;
+$bckgColor: #f275558f;
+
+
+
+* {
+    direction: rtl;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        display: inline;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    background-color: $bckgColor;
+    border-radius: 5px;
+}
+
+.select {
+    background-color: $mainColor;
+    color: #fff;
+}
+
+.correct {
+    background-color:#3582D2;
+    color: #fff;
+}
+
+.container {
+
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+
+
+
+
+/*----------------------------------------*/

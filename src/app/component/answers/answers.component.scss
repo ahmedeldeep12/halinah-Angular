@@ -1,0 +1,43 @@
+@import '../../../styles.scss';
+@import '../../component/qustion/qustion.component.scss';
+
+.qusstion {
+    .wrap-question {
+
+        .answers {
+            cursor: default;
+
+            
+        }
+
+        .correct {
+            position: relative;
+
+            i {
+                position: absolute;
+                right: 20px;
+                top: 8px;
+                padding: 4px;
+                border-radius: 50%;
+                background-color: #fff;
+                color: #3582D2;
+            }
+        }
+
+        .select {
+            position: relative;
+
+            
+                i {
+                    position: absolute;
+                right: 20px;
+                top: 8px;
+                padding: 5px 8px;
+                border-radius: 50%;
+                color: #fff;
+                background-color: #000;
+                }
+            
+        }
+    }
+}

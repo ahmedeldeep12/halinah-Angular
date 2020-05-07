@@ -1,0 +1,117 @@
+@import "../../../styles.scss";
+@import "../../../mediaquery.scss";
+
+* {
+    text-align: right;
+}
+
+nav {
+  background-color: $mainColor;
+  padding: 10px 0 15px;
+  color: #fff;
+  overflow: hidden;
+
+  .wrap-social {
+
+    i {
+      margin-top: 5px;
+    }
+  }
+}
+
+.nav-mobile {
+  background-color: $mainColor;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.info {
+  margin-top: 20px;
+
+  .logo {
+    width: 150px;
+  }
+
+
+
+  .type {
+    margin-right: 25px;
+    li {
+      margin-left: 20px;
+
+      img {
+        width: 35px;
+      }
+
+      a {
+        margin-right: 10px;
+        color: #000;
+        cursor: pointer;
+
+        &:hover {
+            font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .user {
+    margin-bottom: 50px;
+    position: relative;
+    .name-user {
+      color: $scondColor ;
+      font-weight: 500;
+      margin-right: 10px;
+      padding-left: 20px;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 6px solid;
+        border-top-color: inherit;
+        top: 10px;
+        left: 0;
+      }
+    }
+
+    .more {
+        background-color: $mainColor;
+        padding: 10px 20px 10px 0 ;
+        border-radius: 10px;
+        width: 125px;
+        position: absolute;
+        left: -20px;
+        top: 45px;
+        display: none;
+        z-index: 999999999;
+        li {
+            display: block;
+            a {
+                color: #fff;
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+
+        &:before{
+            content: "";
+            position: absolute;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid $mainColor;
+            top: -18px;
+            left: 55px;
+        }
+    }
+  }
+}
+
+
+

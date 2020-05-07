@@ -1,0 +1,152 @@
+@import '../../../styles.scss';
+
+
+header {
+    background-image: url('../../../assets/header.png');
+    height: 400px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    .band {
+        background-color: $mainColor;
+        height: 50px;
+        width: 100%;
+        position: relative;
+        padding: 0 30px;
+
+        .wrap-img {
+            position: absolute;
+            bottom: -55px;
+            left: 0;
+            img {
+                    width: 94%;
+                    transition: transform .5s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+            }
+        }
+
+
+    }
+}
+
+
+
+.info {
+    margin-top: 40px;
+    overflow: hidden;
+
+    p:first-child {
+        font-weight: bold;
+        margin-bottom: 50px;
+
+    }
+
+    .wrap-info {
+        background-image: url('../../../assets/info.png');
+        background-size: 100% 100%;
+        height: 230px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: transform .5s;
+
+
+        img {
+            width: 80px;
+        }
+
+        h5 {
+            color:$thirdColor;
+            margin: 10px 0 6px;
+        }
+
+        p {
+            color: #777;
+            font-size: 12px;
+        }
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.about {
+    text-align: right;
+    margin-top: 80px;
+
+    .join {
+
+        ul {
+            margin-top: 40px;
+
+            li {
+                display: block;
+                margin-bottom: 15px;
+
+                span {
+                    font-size: 18px;
+                }
+
+                i {
+                    color: $mainColor;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.shar {
+  img {
+    transition: transform .5s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media (max-width:992px) {
+  header {
+    height: 270px;
+  }
+}
+
+@media (max-width:767px) {
+  header {
+    height: 200px;
+  }
+}
+
+@media (max-width:992px) {
+  header {
+    height: 270px;
+  }
+}
+
+@media (max-width:592px) {
+  header {
+    height: 150px;
+  }
+}
+
+@media (max-width:414px) {
+  header {
+    .band {
+
+      height: 25px;
+
+      .wrap-img {
+          bottom: -20px;
+      }
+
+
+  }
+  }
+}
+
+
+

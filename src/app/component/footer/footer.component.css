@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+footer {
+  position: relative;
+  height: 152px;
+  overflow: hidden;
+  padding-top: 58px;
+}
+
+footer .wrap-footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #F27655;
+  color: #fff;
+  margin-top: 50px;
+}
+
+footer .wrap-footer .img {
+  top: -95px;
+  position: absolute;
+  right: -50px;
+}
+
+footer .wrap-footer .img img {
+  width: 150px;
+}
+
+footer .wrap-footer .img2 {
+  left: 0px;
+  right: unset;
+  top: -115px;
+}
+/*# sourceMappingURL=footer.component.css.map */

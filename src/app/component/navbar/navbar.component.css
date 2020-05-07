@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+@media (max-width: 411px) {
+  nav {
+    display: none;
+  }
+  .nav-mobile {
+    display: block !important;
+  }
+  .more {
+    left: 5px !important;
+  }
+  .user .name-user {
+    font-size: 12px;
+  }
+  .user .name-user:after {
+    top: 7px !important;
+  }
+}
+
+* {
+  text-align: right;
+}
+
+nav {
+  background-color: #F27655;
+  padding: 10px 0 15px;
+  color: #fff;
+  overflow: hidden;
+}
+
+nav .wrap-social i {
+  margin-top: 5px;
+}
+
+.nav-mobile {
+  background-color: #F27655;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.info .logo {
+  width: 150px;
+}
+
+.info .type {
+  margin-right: 25px;
+}
+
+.info .type li {
+  margin-left: 20px;
+}
+
+.info .type li img {
+  width: 35px;
+}
+
+.info .type li a {
+  margin-right: 10px;
+  color: #000;
+  cursor: pointer;
+}
+
+.info .type li a:hover {
+  font-weight: bold;
+}
+
+.info .user {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.info .user .name-user {
+  color: #594c42;
+  font-weight: 500;
+  margin-right: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.info .user .name-user:after {
+  content: "";
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 6px solid;
+  border-top-color: inherit;
+  top: 10px;
+  left: 0;
+}
+
+.info .user .more {
+  background-color: #F27655;
+  padding: 10px 20px 10px 0;
+  border-radius: 10px;
+  width: 125px;
+  position: absolute;
+  left: -20px;
+  top: 45px;
+  display: none;
+  z-index: 999999999;
+}
+
+.info .user .more li {
+  display: block;
+}
+
+.info .user .more li a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.info .user .more:before {
+  content: "";
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid #F27655;
+  top: -18px;
+  left: 55px;
+}
+/*# sourceMappingURL=navbar.component.css.map */

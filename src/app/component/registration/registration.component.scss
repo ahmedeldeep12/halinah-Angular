@@ -1,0 +1,80 @@
+@import '../../../styles.scss';
+
+* {
+  text-align: right;
+}
+
+
+.regest {
+  margin-top: 100px;
+
+  form {
+      border: 1px solid #ddd;
+      padding: 50px;
+      border-radius: 15px;
+      position: relative;
+
+      img {
+          width:150px;
+          position: relative;
+          margin: auto;
+          margin-top: -150px;
+
+
+      }
+
+      .form-group {
+          position: relative;
+          width: 70%;
+          margin: auto;
+          margin-top: 30px;
+
+          ul {
+              li {
+                  position: relative;
+
+                  label {
+                      margin:10px 10px 10px 0;
+                      font-weight: bold;
+                      width: 130px;
+                      display: block;
+                  }
+
+                  svg {
+                      position: absolute;
+                      top: 45px;
+                      z-index: 5555;
+                      right: 12px;
+                      padding-left: 10px;
+                      border-left: 1px solid #ddd;
+
+
+                  }
+
+                  input {
+                      border-radius: 20px;
+                      width: 100%;
+                      padding-right: 50px;
+                  }
+
+                  &:first-of-type svg{
+                    top: 34px;
+                  }
+              }
+          }
+      }
+
+      button {
+          background-color: $mainColor;
+          padding: 5px 0;
+          color: #fff;
+          margin: auto;
+          margin-top: 50px;
+          border-radius: 20px;
+          width: 160px;
+          font-size:20px;
+          text-align: center;
+
+      }
+  }
+}

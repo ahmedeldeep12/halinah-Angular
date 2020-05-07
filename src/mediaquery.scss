@@ -1,0 +1,26 @@
+@media (max-width:411px) {
+
+  nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block !important;
+  }
+
+  .more {
+left:5px !important;
+}
+
+.user {
+  .name-user {
+
+    font-size: 12px;
+
+    &:after {
+
+      top: 7px !important;
+    }
+  }
+}
+}

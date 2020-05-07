@@ -1,0 +1,21 @@
+@import '../registration/registration.component.scss';
+
+
+.regest {
+
+  .cridet {
+
+    margin-top: 30px;
+
+    p {
+      width: 200px;
+      font-weight: bold;
+      color: #666;
+    }
+
+    span {
+      color: $scondColor;
+      font-weight: bold;
+    }
+  }
+}

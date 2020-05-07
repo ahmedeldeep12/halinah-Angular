@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*# sourceMappingURL=styles.css.map */

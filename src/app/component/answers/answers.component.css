@@ -1,0 +1,143 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+.qusstion .wrap-question {
+  border: 2px solid #ddd;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.qusstion .wrap-question .answers {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.qusstion .next {
+  padding: 10px 50px;
+  margin-top: 25px;
+}
+
+.qusstion .next a {
+  color: #fff;
+  background-color: #F27655;
+  padding: 7px 50px;
+  border-radius: 10px;
+}
+
+.qusstion .wrap-question .answers {
+  cursor: default;
+}
+
+.qusstion .wrap-question .correct {
+  position: relative;
+}
+
+.qusstion .wrap-question .correct i {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #3582D2;
+}
+
+.qusstion .wrap-question .select {
+  position: relative;
+}
+
+.qusstion .wrap-question .select i {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  padding: 5px 8px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+}
+/*# sourceMappingURL=answers.component.css.map */

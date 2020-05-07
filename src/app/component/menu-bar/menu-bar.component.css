@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+.curricula .user img {
+  width: 60%;
+}
+
+.curricula .user .user-info {
+  border: 1px solid #ddd;
+  padding: 60px 0px 20px;
+  border-radius: 9px;
+  margin-top: -40px;
+}
+
+.curricula .user .user-info h5 {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  color: #594c42;
+}
+
+.curricula .curricula-top {
+  padding: 0 10px;
+}
+
+.curricula .curricula-top .wrap-curricula {
+  border: 2px solid #ddd;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.curricula .curricula-top .wrap-curricula h6 {
+  font-size: 15px;
+}
+
+.curricula .curricula-top .wrap-curricula .wrap-top {
+  padding: 15px 0;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.curricula .curricula-top .wrap-curricula .wrap-top img {
+  width: 80px;
+  margin-bottom: 5px;
+  height: 70px;
+}
+
+.curricula .curricula-top .wrap-curricula .wrap-top:hover {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.curricula .curricula-bottom {
+  padding: 0 20px;
+}
+
+.curricula .curricula-bottom img {
+  width: 50px;
+  height: 50px;
+}
+
+.curricula .curricula-bottom .bord {
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  padding: 15px;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.curricula .curricula-bottom .bord:hover {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=menu-bar.component.css.map */

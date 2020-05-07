@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+header {
+  background-image: url("../../../assets/header.png");
+  height: 400px;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header .band {
+  background-color: #F27655;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  padding: 0 30px;
+}
+
+header .band .wrap-img {
+  position: absolute;
+  bottom: -55px;
+  left: 0;
+}
+
+header .band .wrap-img img {
+  width: 94%;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+header .band .wrap-img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.info {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.info p:first-child {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.info .wrap-info {
+  background-image: url("../../../assets/info.png");
+  background-size: 100% 100%;
+  height: 230px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.info .wrap-info img {
+  width: 80px;
+}
+
+.info .wrap-info h5 {
+  color: #060054;
+  margin: 10px 0 6px;
+}
+
+.info .wrap-info p {
+  color: #777;
+  font-size: 12px;
+}
+
+.info .wrap-info:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.about {
+  text-align: right;
+  margin-top: 80px;
+}
+
+.about .join ul {
+  margin-top: 40px;
+}
+
+.about .join ul li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.about .join ul li span {
+  font-size: 18px;
+}
+
+.about .join ul li i {
+  color: #F27655;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=home.component.css.map */

@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+* {
+  text-align: right;
+}
+
+.regest {
+  margin-top: 100px;
+}
+
+.regest form {
+  border: 1px solid #ddd;
+  padding: 50px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.regest form img {
+  width: 150px;
+  position: relative;
+  margin: auto;
+  margin-top: -150px;
+}
+
+.regest form .form-group {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.regest form .form-group ul li {
+  position: relative;
+}
+
+.regest form .form-group ul li label {
+  margin: 10px 10px 10px 0;
+  font-weight: bold;
+  width: 130px;
+  display: block;
+}
+
+.regest form .form-group ul li svg {
+  position: absolute;
+  top: 45px;
+  z-index: 5555;
+  right: 12px;
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.regest form .form-group ul li input {
+  border-radius: 20px;
+  width: 100%;
+  padding-right: 50px;
+}
+
+.regest form .form-group ul li:first-of-type svg {
+  top: 34px;
+}
+
+.regest form button {
+  background-color: #F27655;
+  padding: 5px 0;
+  color: #fff;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 160px;
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=registration.component.css.map */

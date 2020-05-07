@@ -1,0 +1,100 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+.note .info-note {
+  height: 135px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.note .info-note .teacher {
+  text-align: center;
+}
+
+.note .info-note .teacher a {
+  background-color: transparent;
+}
+
+.note .info-note .teacher a img {
+  width: 40px;
+  margin-bottom: 6px;
+}
+
+.note .info-note .teacher a h6 {
+  background-color: #F27655;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.note .info-note .teacher a h6::before {
+  content: "";
+  border-bottom: 8px solid #F27655;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: -12px;
+  right: 27px;
+}
+
+.note .links-note {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.note .links-note a {
+  color: #fff;
+  background-color: #F27655;
+  padding: 5px 0;
+  width: 130px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.note .links-note a:first-child {
+  margin-left: 50px;
+}
+/*# sourceMappingURL=video.component.css.map */

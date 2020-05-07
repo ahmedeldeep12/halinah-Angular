@@ -1,0 +1,95 @@
+@import '../../../styles.scss';
+
+
+.activity {
+
+    margin-top:50px;
+
+    .wrap-activity {
+
+        border: 1px solid #ddd;
+        padding: 30px;
+        border-radius: 10px;
+
+        .box-activity {
+
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px 0 0;
+            position: relative;
+            overflow: hidden;
+
+            .teacher {
+                position: absolute;
+                left: 10px;
+                top: 80px;
+
+                a {
+                    background-color: transparent;
+                img {
+                    width: 40px;
+                    margin-bottom: 6px;
+                    }
+    
+                    h6{
+                        background-color: $mainColor;
+                        color: #fff;
+                        font-size: 10px;
+                        padding: 5px;
+                        border-radius:3px;
+                        position: relative;
+    
+                        &::before {
+                            content: "";
+                            border-bottom: 8px solid #F27655;
+                            border-top: 5px solid transparent;
+                            border-right: 5px solid transparent;
+                            border-left: 5px solid transparent;
+                            position: absolute;
+                            top: -12px;
+                            right: 27px;
+                        }
+                    }
+                }
+            }
+
+            img {
+                width: 120px;
+                margin-bottom: 22px;
+            }
+
+            h5 {
+                padding: 10px 0;
+                background-color:#A3D1C7;
+                font-size: 15px;
+            }
+
+            p {
+                padding: 10px 0;
+                font-size: 15px;
+            }
+
+            a {
+
+                color: #fff;
+                padding: 10px 0;
+                background-color: $mainColor;
+                display: block;
+                font-size: 18px;
+                
+            }
+    
+        }
+
+        button {
+            background-color: $mainColor;
+            color: #fff;
+            padding: 5px 25px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    }
+}
+
+

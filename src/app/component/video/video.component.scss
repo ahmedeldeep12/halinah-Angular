@@ -1,0 +1,64 @@
+@import '../../../styles.scss';
+
+
+.note {
+
+    .info-note {
+
+        height: 135px;
+        align-items: center;
+
+        .teacher {
+    
+            text-align: center;
+        
+            a {
+                background-color: transparent;
+            img {
+                width: 40px;
+                margin-bottom: 6px;
+                }
+        
+                h6{
+                    background-color: $mainColor;
+                    color: #fff;
+                    font-size: 10px;
+                    padding: 5px;
+                    border-radius:3px;
+                    position: relative;
+        
+                    &::before {
+                        content: "";
+                        border-bottom: 8px solid #F27655;
+                        border-top: 5px solid transparent;
+                        border-right: 5px solid transparent;
+                        border-left: 5px solid transparent;
+                        position: absolute;
+                        top: -12px;
+                        right: 27px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .links-note {
+        text-align: center;
+        margin-top: 50px;
+
+        a {
+            color: #fff;
+            background-color: $mainColor;
+            padding: 5px 0;
+            width: 130px;
+            display:inline-block;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            
+            &:first-child {
+                margin-left: 50px;
+            }
+        }
+    }
+}

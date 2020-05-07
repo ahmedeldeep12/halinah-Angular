@@ -1,0 +1,168 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* You can add global styles to this file, and also import other style files */
+* {
+  direction: rtl;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f275558f;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: #F27655;
+  color: #fff;
+}
+
+.correct {
+  background-color: #3582D2;
+  color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+.activity {
+  margin-top: 50px;
+}
+
+.activity .wrap-activity {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.activity .wrap-activity .box-activity {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.activity .wrap-activity .box-activity .teacher {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+}
+
+.activity .wrap-activity .box-activity .teacher a {
+  background-color: transparent;
+}
+
+.activity .wrap-activity .box-activity .teacher a img {
+  width: 40px;
+  margin-bottom: 6px;
+}
+
+.activity .wrap-activity .box-activity .teacher a h6 {
+  background-color: #F27655;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.activity .wrap-activity .box-activity .teacher a h6::before {
+  content: "";
+  border-bottom: 8px solid #F27655;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: -12px;
+  right: 27px;
+}
+
+.activity .wrap-activity .box-activity img {
+  width: 120px;
+  margin-bottom: 22px;
+}
+
+.activity .wrap-activity .box-activity h5 {
+  padding: 10px 0;
+  background-color: #A3D1C7;
+  font-size: 15px;
+}
+
+.activity .wrap-activity .box-activity p {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.activity .wrap-activity .box-activity a {
+  color: #fff;
+  padding: 10px 0;
+  background-color: #F27655;
+  display: block;
+  font-size: 18px;
+}
+
+.activity .wrap-activity button {
+  background-color: #F27655;
+  color: #fff;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=teacher.component.css.map */
