@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare const $: any;
 
 @Component({
   selector: 'app-qustion',
@@ -10,6 +11,10 @@ export class QustionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $('.answers').click(function() {
+      $(this).addClass('select').parent().siblings().find('.select').removeClass('select')
+    })
   }
+
 
 }
