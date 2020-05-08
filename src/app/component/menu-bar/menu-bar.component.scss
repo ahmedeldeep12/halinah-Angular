@@ -39,22 +39,26 @@
           h6 {
             font-size: 15px;
           }
-          .wrap-top {
+
+          a {
+            display: block;
               padding: 15px 0;
-              cursor: pointer;
               transition: all .5s;
+            .wrap-top {
 
               img {
                   width: 80px;
                   margin-bottom: 5px;
                   height: 70px;
               }
+            }
 
-              &:hover {
-                  background-color: $bckgColor;
-                  border-radius: 5px;
-              }
+            &:hover {
+              background-color: $bckgColor;
+              border-radius: 5px;
           }
+          }
+
       }
 
   }

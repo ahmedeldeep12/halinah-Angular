@@ -30,6 +30,11 @@ a {
     border-radius: 5px;
 }
 
+.selection {
+  font-weight: bold;
+  color: $mainColor !important;
+}
+
 .select {
     background-color: $mainColor;
     color: #fff;
